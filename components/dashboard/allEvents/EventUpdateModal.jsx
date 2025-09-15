@@ -71,11 +71,11 @@ const EventUpdateModal = ({ event, onClose }) => {
     try {
       // Update event by ID
       await axios.put(`/api/events/${event._id}`, data);
-      toast.success("✅ Event updated successfully!");
+      toast.success("Event updated successfully!");
       onClose();
     } catch (error) {
       console.error(error);
-      toast.error(error.response?.data?.message || "❌ Something went wrong");
+      toast.error(error.response?.data?.message || "Something went wrong");
     }
   };
 

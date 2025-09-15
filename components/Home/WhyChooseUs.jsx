@@ -23,11 +23,11 @@ const WhyChooseUs = () => {
         <div className="flex flex-col md:flex-row gap-10 items-center">
           {/* Left: Image / Illustration */}
           <div className="flex-1">
-            {/* <Image
-              src="/event-illustration.png"
+            <img
+              src="https://i.ibb.co.com/0jGHHqcJ/2151966684.jpg"
               alt="Eventora Illustration"
-              className="rounded-xl shadow-lg"
-            /> */}
+              className="rounded-xl shadow-lg w-[500px] h-[300px]"
+            />
           </div>
 
           {/* Right: Benefits list */}
